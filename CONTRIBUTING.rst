@@ -32,9 +32,9 @@ on your workstation as follows::
 
     $ git clone git://github.com/gilesknap/gphotos-sync.git
     $ cd gphotos-sync
-    $ virtualenv .venv
+    $ python3 -m venv .venv
     $ source .venv/bin/activate
-    $ pip install -e .[dev]
+    $ pip install -e ".[dev]"
     $ tox -p 
 
 In both cases tox -p runs in parallel the following checks:
